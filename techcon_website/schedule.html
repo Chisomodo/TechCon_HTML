@@ -24,32 +24,36 @@
 
     <!-- Main Content Section -->
     <main>
-        <section>
-            <h2>Registration Form</h2>
-            <form action="submit_registration.php" method="POST">
-                <!-- Name Field -->
-                <label for="full-name">Full Name:</label>
-                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name" required>
-    
-                <!-- Email Field -->
-                <label for="email">Email Address:</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-    
-                <!-- Password Fields -->
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Enter a password" required>
-    
-                <label for="confirm-password">Confirm Password:</label>
-                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
-    
-                <!-- Terms and Conditions -->
-                <input type="checkbox" id="terms" name="terms" required>
-                <label for="terms">I agree to the <a href="terms.html" target="_blank">Terms and Conditions</a>.</label>
-    
-                <!-- Submit Button -->
-                <button type="submit">Register Now</button>
-            </form>
-        </section>
+       <table>
+        
+            <thead>
+                <tr>
+                    <th scope="col">Time</th>
+                    <th scope="col">Session</th>
+                    <th scope="col">Speaker</th>
+                </tr>
+            </thead>
+            <!-- Table Body -->
+            <tbody>
+                <tr>
+                    <td>9:00 AM</td>
+                    <td>Opening Keynote</td>
+                    <td>Dr. Jane Smith</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM</td>
+                    <td>Future of AI</td>
+                    <td>Mr. John Doe</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM</td>
+                    <td>Cybersecurity Trends</td>
+                    <td>Ms. Anna Lee</td>
+                </tr>
+            </tbody>
+        
+       </table>
+       <caption>Detailed Schedule of Events for Techcon2024</caption>
     </main>
     
     <!-- Footer Section -->
